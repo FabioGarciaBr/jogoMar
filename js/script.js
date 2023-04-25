@@ -48,6 +48,15 @@ function stopGame() {
   mario.src= 'imagens/loser.png';
   mario.style.width = '40px';
 
+  function stopGame() {
+  clearInterval(gameInterval);
+  pipe.classList.add('paused');
+  mario.classList.add('paused');
+  
+  // Pare o autoplay do elemento de áudio
+  var meuAudio = document.getElementById("meuAudio");
+  meuAudio.pause();
+}
   clearInterval(loop);
 }
 
