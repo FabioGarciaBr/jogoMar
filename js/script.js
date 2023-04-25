@@ -56,3 +56,27 @@ const loop = setInterval(() => {
 }, 10);
 
 document.addEventListener('keydown', jump);
+
+
+// elemento de botão
+const reloadBtn = document.createElement('button');
+
+//texto do botão
+reloadBtn.innerText = 'Recarregar';
+
+// estilo do botão
+reloadBtn.style.padding = '10px';
+reloadBtn.style.backgroundColor = '#4CAF50';
+reloadBtn.style.color = 'white';
+reloadBtn.style.border = 'none';
+reloadBtn.style.borderRadius = '5px';
+reloadBtn.style.cursor = 'pointer';
+
+
+reloadBtn.addEventListener('click', function() {
+  location.reload();
+});
+
+
+document.body.appendChild(reloadBtn);
+
