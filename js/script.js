@@ -22,7 +22,7 @@ function checkCollision() {
   const pipePosition = pipe.offsetLeft * (window.innerWidth / MAX_WIDTH);
   const marioPosition = +window.getComputedStyle(mario).bottom.replace('px', '') * (window.innerWidth / MAX_WIDTH);
 
-  if (pipePosition <= 30 && pipePosition > 0 && marioPosition < 30) {
+  if (pipePosition <= 20 && pipePosition > 0 && marioPosition < 20) {
     stopGame();
   }
 }
