@@ -26,7 +26,7 @@ function checkCollision() {
     stopGame();
   }
 }
-const isMobile = window.matchMedia("(max-width: 768px)").matches;
+const isMobile = window.matchMedia("()").matches;
 
 if (isMobile) {
   document.addEventListener('touchstart', jump);
