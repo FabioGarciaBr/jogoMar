@@ -18,7 +18,7 @@ function checkCollision() {
 }
 
 function checkCollision() {
-  const MAX_WIDTH = 768;
+  const MAX_WIDTH = 900;
   const pipePosition = pipe.offsetLeft * (window.innerWidth / MAX_WIDTH);
   const marioPosition = +window.getComputedStyle(mario).bottom.replace('px', '') * (window.innerWidth / MAX_WIDTH);
 
@@ -26,7 +26,7 @@ function checkCollision() {
     stopGame();
   }
 }
-const isMobile = window.matchMedia("(max-width: 768px)").matches;
+const isMobile = window.matchMedia("(max-width: 900px)").matches;
 
 if (isMobile) {
   document.addEventListener('touchstart', jump);
