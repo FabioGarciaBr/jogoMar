@@ -15,14 +15,12 @@ function checkCollision() {
   if (pipePosition <= 50 && pipePosition > 0 && marioPosition < 80) {
     stopGame();
   }
-}
 
-function checkCollision() {
   const MAX_WIDTH = 768;
   const pipePosition = pipe.offsetLeft * (window.innerWidth / MAX_WIDTH);
   const marioPosition = +window.getComputedStyle(mario).bottom.replace('px', '') * (window.innerWidth / MAX_WIDTH);
 
-  if (pipePosition <= 40 && pipePosition > 0 && marioPosition < 40) {
+  if (pipePosition <= 30 && pipePosition > 0 && marioPosition < 40) {
     stopGame();
   }
 }
