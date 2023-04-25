@@ -26,7 +26,11 @@ function checkCollision() {
     stopGame();
   }
 }
+const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
+if (isMobile) {
+  document.addEventListener('touchstart', jump);
+}
 
 function stopGame() {
   pipe.style.animation = 'none';
