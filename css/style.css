@@ -123,7 +123,7 @@
 @media screen and (max-width : 900px){
 
 .pipe{
-	width: 30px;
+	width: 35px;
 	animation: pipe-animation 3s infinite linear;
 }
 
@@ -147,7 +147,7 @@
 @media screen and (max-width : 768px){
 
 .pipe{
-	width: 30px;
+	width: 40px;
 	animation: pipe-animation 1s infinite linear;
 	}
 .jump{
