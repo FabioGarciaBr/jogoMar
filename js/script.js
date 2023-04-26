@@ -26,7 +26,7 @@ function checkCollision() {
   }
 }
 
-const isMobile = window.matchMedia("(max-width: 768px)").matches;
+const isMobile = window.matchMedia("(max-width: 1080px)").matches;
 
 if (isMobile) {
   document.addEventListener('touchstart', jump);
