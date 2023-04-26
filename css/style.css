@@ -41,7 +41,7 @@
 	animation: clouds-animation 20s infinite linear;
 }
 
-.bad{
+.cloudbad{
 	position: absolute;
 	width:40px;
 	bottom: 60%;
