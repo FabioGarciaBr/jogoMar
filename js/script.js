@@ -10,7 +10,7 @@ function jump() {
   }, 500);
 
   const cloudbadPosition = +window.getComputedStyle(cloudbad).left.replace('px', '');
-  if (cloudbadPosition <= 50 && cloudbadPosition > 0) {
+  if (cloudbadPosition <= 30 && cloudbadPosition > 0) {
     stopGame();
   }
 }
