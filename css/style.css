@@ -46,7 +46,7 @@
 	position: absolute;
 	width:40px;
 	bottom: 170px;
-	animation: cloudbad-animation 10s infinite linear;
+	animation: cloudbad-animation 5s infinite linear;
 }
 .meuaudio{
 	text-align:center;
@@ -140,7 +140,7 @@
 }
 .pipe{
 	width: 30px;
-	animation: pipe-animation 1s infinite linear;
+	animation: pipe-animation 2s infinite linear;
 }
 
 .mario{
@@ -149,6 +149,10 @@
 }
 .jump{
 	animation: jump 800ms ease-out;
+}
+.cloudbad{
+	
+	animation: cloudbad-animation 3s infinite linear;
 }
 
 }
