@@ -3,6 +3,9 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+html,body{
+	height: 100%;
+}
 
 .game-board{
 	width: 100%;
@@ -127,16 +130,19 @@
 
 @media screen and (max-width : 900px){
 .game-board{
-	min-height: 100%;
-	
-	
+	width: 100%
+	heigth: 100%
+	}
+.clouds{
+	width: 45%;
+}
+
 }
 
 @media screen and (max-width : 768px){
 .game-board{
 	width: 100%;
-	
-	
+	}
 }
 .pipe{
 	width: 30px;
